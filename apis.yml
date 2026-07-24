@@ -1,8 +1,18 @@
 aid: bridgecare-finance
 name: BridgeCare Finance
-description: BridgeCare Finance is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  BridgeCare (getbridgecare.com) is an integrated, modular software platform for
+  the early care and education (ECE) system. It gives state agencies, cities and
+  counties, child care resource and referral organizations (CCR&Rs), nonprofits,
+  and school districts one system to run Pre-K program administration, family
+  navigation, coordinated eligibility and enrollment, centralized eligibility
+  screening, licensing, workforce development, quality management (QRIS), grants
+  management, subsidy administration, tri-share administration, and program
+  assurance. The platform is used by 500,000+ families, 50,000+ providers, and
+  500+ counties. Founded in 2016 and headquartered in San Francisco, BridgeCare
+  is backed by Techstars and was surfaced to the API Evangelist network as a
+  Techstars portfolio company. BridgeCare operates an API host but publishes no
+  public OpenAPI or developer documentation, so this profile is identity-only.
 url: https://raw.githubusercontent.com/api-evangelist/bridgecare-finance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +20,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://s3.us-west-2.amazonaws.com/craft-bridgecare/uploads/bridgecare7.jpg
 tags:
 - Company
+- Early Childhood Education
+- Child Care
+- Government
+- GovTech
+- Education
+- Eligibility & Enrollment
+- Grants Management
+- Subsidy Management
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +55,20 @@ maintainers:
 common:
 - type: Website
   url: https://getbridgecare.com/
+- type: Blog
+  url: https://getbridgecare.com/blog/
+- type: Support
+  url: https://getbridgecare.com/talk-to-a-specialist/
+- type: TermsOfService
+  url: https://getbridgecare.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://getbridgecare.com/privacy-policy/
+- type: DomainSecurity
+  url: security/bridgecare-finance-domain-security.yml
+- type: LLMsTxt
+  url: llms/bridgecare-finance-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
